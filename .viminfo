@@ -11,6 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:x
+|2,0,1734548393,,"x"
+:w
+|2,0,1734548326,,"w"
 :q!
 |2,0,1734547959,,"q!"
 
@@ -25,14 +29,40 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/file4.txt
-|4,48,1,0,1734547959,"~/file4.txt"
-'1  1  0  ~/file3.txt
-|4,49,1,0,1734547945,"~/file3.txt"
+'0  2  0  ~/file4.txt
+|4,48,2,0,1734548393,"~/file4.txt"
+'1  2  0  ~/file3.txt
+|4,49,2,0,1734548371,"~/file3.txt"
+'2  1  0  ~/file4.txt
+|4,50,1,0,1734547959,"~/file4.txt"
+'3  1  0  ~/file4.txt
+|4,51,1,0,1734547959,"~/file4.txt"
+'4  1  0  ~/file3.txt
+|4,52,1,0,1734547945,"~/file3.txt"
+'5  1  0  ~/file3.txt
+|4,53,1,0,1734547945,"~/file3.txt"
 
 # Jumplist (newest first):
+-'  2  0  ~/file4.txt
+|4,39,2,0,1734548393,"~/file4.txt"
+-'  1  0  ~/file4.txt
+|4,39,1,0,1734548379,"~/file4.txt"
+-'  2  0  ~/file3.txt
+|4,39,2,0,1734548371,"~/file3.txt"
+-'  2  0  ~/file3.txt
+|4,39,2,0,1734548371,"~/file3.txt"
+-'  1  0  ~/file3.txt
+|4,39,1,0,1734548295,"~/file3.txt"
+-'  1  0  ~/file3.txt
+|4,39,1,0,1734548295,"~/file3.txt"
 -'  1  0  ~/file4.txt
 |4,39,1,0,1734547959,"~/file4.txt"
+-'  1  0  ~/file4.txt
+|4,39,1,0,1734547959,"~/file4.txt"
+-'  1  0  ~/file3.txt
+|4,39,1,0,1734547945,"~/file3.txt"
+-'  1  0  ~/file3.txt
+|4,39,1,0,1734547945,"~/file3.txt"
 -'  1  0  ~/file3.txt
 |4,39,1,0,1734547945,"~/file3.txt"
 -'  1  0  ~/file3.txt
@@ -41,9 +71,15 @@
 # History of marks within files (newest to oldest):
 
 > ~/file4.txt
-	*	1734547954	0
-	"	1	0
+	*	1734548389	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
 
 > ~/file3.txt
-	*	1734547935	0
-	"	1	0
+	*	1734548367	0
+	"	2	0
+	^	2	0
+	.	1	5
+	+	1	5
